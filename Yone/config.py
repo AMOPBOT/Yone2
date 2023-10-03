@@ -22,11 +22,11 @@ class Config(object):
     BOT_NAME = "Kora"
     # 
     # DATABASE_URL = "postgres://ixweewbx:9OoB_feF6d6wK1W4YycgwHzRHQXezsNA@arjuna.db.elephantsql.com/ixweewbx"  # sql
-    DATABASE_URL = "postgres://citus:AbhiModszYT12@c-kora.6xoe5irno5ccbx.postgres.cosmos.azure.com:5432/kora"  # sql
+    DATABASE_URL = "postgres://yxjakrab:SmHBUYHKeIt8ikRr0tEEXM1p51E7Lq-U@jelani.db.elephantsql.com/yxjakrab"  # sql
     LOAD = []
     NO_LOAD = []
     WEBHOOK = False
-    REDIS_URL = "redis://default:725m47dhlmisA0QecURSMkcHNGXkM1uP@redis-15808.c275.us-east-1-4.ec2.cloud.redislabs.com:15808"
+    REDIS_URL = "redis://default:6wNSFvZpFp7gwxebagkWV5TGkqtE0pCs@redis-10055.c14.us-east-1-2.ec2.cloud.redislabs.com:10055"
 
     INSPECTOR = get_user_list("elevated_users.json", "ins")
     DEV_USERS = get_user_list("elevated_users.json", "devs")
