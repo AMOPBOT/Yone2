@@ -57,7 +57,7 @@ if ENV:
         raise Exception("Please Add Hash Api key to start the bot")
 
     DB_URI = os.environ.get("DATABASE_URL","postgres://yxjakrab:SmHBUYHKeIt8ikRr0tEEXM1p51E7Lq-U@jelani.db.elephantsql.com/yxjakrab")
-    PHOTO = os.environ.get("PHOTO", "https://graph.org/file/4d325b62578e7005a3b05.jpg") # Miss Poppy Pic
+    PHOTO = os.environ.get("PHOTO", "https://graph.org/file/324a12454d23b5d78dd48.jpg") # Miss Poppy Pic
     WORKERS = int(os.environ.get("WORKERS", 8))
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
@@ -71,10 +71,10 @@ if ENV:
     CERT_PATH = os.environ.get("CERT_PATH")
     URL = os.environ.get("URL", "")  # Does not contain token
     PORT = int(os.environ.get("PORT", 5000))
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Kora_Xbot")
-    BOT_NAME = os.environ.get("BOT_NAME", "Kora")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "YoneTg_Robot")
+    BOT_NAME = os.environ.get("BOT_NAME", "Yone 2.0")
     LOAD = os.environ.get("LOAD", "").split()
-    NO_LOAD = os.environ.get("NO_LOAD","afk").split()
+    NO_LOAD = os.environ.get("NO_LOAD","").split()
 
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", True))
     INFOPIC = bool(os.environ.get("INFOPIC", False))
