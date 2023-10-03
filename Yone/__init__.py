@@ -78,7 +78,7 @@ if ENV:
 
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", True))
     INFOPIC = bool(os.environ.get("INFOPIC", False))
-    REDIS_URL = os.environ.get("REDIS_URL","redis://default:mvwQl6zkrKuhD584XKB8kCOEB2Os8vlJ@redis-14834.c244.us-east-1-2.ec2.cloud.redislabs.com:14834")
+    REDIS_URL = os.environ.get("REDIS_URL","redis://default:6wNSFvZpFp7gwxebagkWV5TGkqtE0pCs@redis-10055.c14.us-east-1-2.ec2.cloud.redislabs.com:10055")
 
 else:
     from Yone.config import Development as Config
