@@ -29,7 +29,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = bool(os.environ.get("ENV", False))
 
 if ENV:
-    TOKEN = os.environ.get("TOKEN", "2027757649:AAHLgxIf1W2YDU6Ghj5sCLSjFqnrAaXEHtQ")
+    TOKEN = os.environ.get("TOKEN", "5207268348:AAEZfXfXMQpdFVLYyal04_iSQcVuJh4W1l8")
 
     try:
         OWNER_ID = int(os.environ.get("OWNER_ID", "2105971379"))
@@ -56,7 +56,7 @@ if ENV:
     except ValueError:
         raise Exception("Please Add Hash Api key to start the bot")
 
-    DB_URI = os.environ.get("DATABASE_URL","postgres://citus:AbhiModszYT12@c-kora.6xoe5irno5ccbx.postgres.cosmos.azure.com:5432/kora")
+    DB_URI = os.environ.get("DATABASE_URL","postgres://yxjakrab:SmHBUYHKeIt8ikRr0tEEXM1p51E7Lq-U@jelani.db.elephantsql.com/yxjakrab")
     PHOTO = os.environ.get("PHOTO", "https://graph.org/file/4d325b62578e7005a3b05.jpg") # Miss Poppy Pic
     WORKERS = int(os.environ.get("WORKERS", 8))
     ALLOW_EXCL = os.environ.get('ALLOW_EXCL', False)
