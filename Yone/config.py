@@ -12,14 +12,14 @@ class Config(object):
 
     API_ID = "12227067"
     API_HASH = "b463bedd791aa733ae2297e6520302fe"
-    TOKEN = "2027757649:AAHLgxIf1W2YDU6Ghj5sCLSjFqnrAaXEHtQ"
+    TOKEN = "5207268348:AAEZfXfXMQpdFVLYyal04_iSQcVuJh4W1l8"
     OWNER_ID = "2105971379"
     OWNER_USERNAME = "sultan11100"
     SUPPORT_CHAT = "Yone_Support"
     JOIN_LOGGER = "-1001841879487"
     EVENT_LOGS = "-1001908711819"
-    BOT_USERNAME = "Kora_Xbot"
-    BOT_NAME = "Kora"
+    BOT_USERNAME = "YoneTg_Robot"
+    BOT_NAME = "Yone 2.0 "
     # 
     # DATABASE_URL = "postgres://ixweewbx:9OoB_feF6d6wK1W4YycgwHzRHQXezsNA@arjuna.db.elephantsql.com/ixweewbx"  # sql
     DATABASE_URL = "postgres://yxjakrab:SmHBUYHKeIt8ikRr0tEEXM1p51E7Lq-U@jelani.db.elephantsql.com/yxjakrab"  # sql
@@ -40,7 +40,7 @@ class Config(object):
     WORKERS = 20
     ALLOW_EXCL = True
     ALLOW_CHATS = True
-    PHOTO = "https://graph.org/file/4d325b62578e7005a3b05.jpg" # Miss Poppy Music Pic
+    PHOTO = "https://graph.org/file/324a12454d23b5d78dd48.jpg" # Miss Poppy Music Pic
     INFOPIC = True
 
 
