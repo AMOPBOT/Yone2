@@ -66,7 +66,8 @@ if ENV:
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", "AM_YTSUPPORT")
     EVENT_LOGS = os.environ.get("EVENT_LOGS", "-1001908711819")
     JOIN_LOGGER = os.environ.get("JOIN_LOGGER", "-1001841879487")
-
+    DEEP_API = os.environ.get("DEEP_API","c8e3d7fc-1f7e-455b-8019-5c1b7f21047a")
+    OPENAI_KEY = os.environ.get("OPENAI_KEY","")
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
     CERT_PATH = os.environ.get("CERT_PATH")
     URL = os.environ.get("URL", "")  # Does not contain token
@@ -119,6 +120,8 @@ else:
     BOT_NAME = Config.BOT_NAME
     WORKERS = Config.WORKERS
     DEL_CMDS = Config.DEL_CMDS
+    DEEP_API = Config.DEEP_API
+    OPENAI_KEY = Config.OPENAI_KEY
     LOAD = Config.LOAD
     NO_LOAD = Config.NO_LOAD
     # CASH_API_KEY = Config.CASH_API_KEY
